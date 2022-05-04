@@ -1,0 +1,130 @@
+body {
+  margin: auto;
+  background: rgb(233, 250, 250);
+  font-family: "Noto Serif", serif;
+  background-image: url("../public/bgnew.jpg");
+}
+
+.info p {
+  text-align: center;
+  color: #fff;
+  text-transform: none;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.info i {
+  color: #f6aa93;
+}
+form h1 {
+  font-size: 18px;
+  background: #9fede7;
+  color: rgb(0, 0, 0);
+  padding: 22px 25px;
+  border-radius: 5px 5px 0px 0px;
+  margin: auto;
+  text-align: center;
+  height: 20px;
+  font-weight: lighter;
+}
+
+form {
+  border-radius: 5px 5px 0px 0px;
+  max-width: 700px;
+  width: 100%;
+  margin: 5% auto;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin-bottom: 17px;
+}
+
+p {
+  margin: 0px;
+  font-weight: 500;
+  line-height: 2;
+  color: #333;
+}
+
+input {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 40px;
+  float: left;
+  padding: 0px 15px;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+textarea {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin: 0;
+  width: 75%;
+  height: 130px;
+  float: left;
+  padding: 0px 15px;
+}
+
+.form-group {
+  overflow: hidden;
+  clear: both;
+}
+
+.icon-case {
+  width: 35px;
+  float: left;
+  border-radius: 5px 0px 0px 5px;
+  background: #eeeeee;
+  height: 42px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+}
+
+i {
+  color: #555;
+}
+
+.contentform {
+  padding: 40px 30px;
+}
+
+a {
+  background-color: #9fede7;
+  color: #000;
+  text-align: center;
+  border: 0;
+  padding: 17px 322px;
+  margin-left: 410px;
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Noto Serif", serif;
+}
+a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 2px 6px -1px rgba(182, 157, 230, 0.65);
+}
+a:hover:active {
+  transform: scale(0.99);
+}
+
+.leftcontact {
+  width: 49.5%;
+  float: left;
+  border-right: 1px dotted #ccc;
+  box-sizing: border-box;
+  padding: 0px 15px 0px 0px;
+}
+
+.rightcontact {
+  width: 49.5%;
+  float: right;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 15px;
+}
